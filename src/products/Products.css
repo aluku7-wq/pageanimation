@@ -1,0 +1,82 @@
+/** @format */
+
+.navbarwrap {
+  position: fixed;
+  width: 100vw;
+}
+.products_body {
+  width: 100vw;
+  display: flex;
+}
+.product_dashboard {
+  flex-basis: 20%;
+  background: rgba(27, 62, 82, 0.849);
+}
+.product_dashboard .top_section {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  cursor: pointer;
+}
+.product_dashboard .top_section p {
+  margin-left: 20px;
+}
+.product_dashboard .lower_section {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  cursor: pointer;
+  width: 70px;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+.product_dashboard .lower_section p {
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  border: 2px solid #fff;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.product_dashboard .lower_section .right_icon {
+  border: 2px solid rgb(228, 90, 143);
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+.product_container {
+  flex-basis: 80%;
+  display: grid;
+  grid-auto-rows: auto;
+  justify-content: space-between;
+  grid-template-columns: repeat(5, 1fr);
+}
+.product_card {
+  background: rgba(27, 62, 82, 0.849);
+  text-align: center;
+  min-height: 100vh;
+  border-left: 0.5px solid rgba(46, 90, 117, 0.849);
+  font-family: "Comfortaa", cursive;
+  letter-spacing: 0.25rem;
+  font-weight: bold;
+}
+.product_card img {
+  width: 70%;
+  margin-top: 40vh;
+}
+.product_card .card_name {
+  color: rgb(179, 179, 179);
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 50px;
+  font-family: "aclonica", cursive;
+}
+.product_card .card_price {
+  color: rgb(250, 98, 181);
+  text-align: left;
+  margin-left: 20%;
+}

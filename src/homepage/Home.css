@@ -1,0 +1,58 @@
+/** @format */
+
+.home {
+  min-height: 100vh;
+  width: 100vw;
+  background: rgb(58, 150, 255);
+}
+.home_cover {
+  background-image: url("../../public/images/1.jpg");
+  background-size: auto 100vh;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
+.home_overlay {
+  background: linear-gradient(
+    to right,
+    rgba(2, 22, 41, 0.589),
+    rgba(27, 7, 19, 0.568),
+    rgba(14, 87, 223, 0.808),
+    rgba(13, 49, 117, 0.89)
+  );
+  min-height: 100vh;
+}
+.home_body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top_text {
+  flex-basis: 90%;
+  text-align: center;
+  padding-top: 30vh;
+  font-family: "Aclonica", cursive;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2rem;
+  word-spacing: 2rem;
+}
+.lower_text {
+  flex-basis: 90%;
+  text-align: center;
+}
+.lower_text .button {
+  border: rgb(250, 79, 179) 3px solid;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+.lower_text .button p {
+  font-weight: bold;
+}
